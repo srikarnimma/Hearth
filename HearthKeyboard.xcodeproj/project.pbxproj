@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CED7EE826A72728004EADBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7EE726A72728004EADBC /* AppDelegate.swift */; };
+		7CED7EEA26A72728004EADBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7EE926A72728004EADBC /* SceneDelegate.swift */; };
+		7CED7EEC26A72728004EADBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7EEB26A72728004EADBC /* ViewController.swift */; };
+		7CED7EEF26A72728004EADBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CED7EED26A72728004EADBC /* Main.storyboard */; };
+		7CED7EF126A7272C004EADBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CED7EF026A7272C004EADBC /* Assets.xcassets */; };
+		7CED7EF426A7272C004EADBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CED7EF226A7272C004EADBC /* LaunchScreen.storyboard */; };
+		7CED7EFF26A7272D004EADBC /* HearthKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7EFE26A7272D004EADBC /* HearthKeyboardTests.swift */; };
+		7CED7F0A26A7272D004EADBC /* HearthKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7F0926A7272D004EADBC /* HearthKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CED7EFB26A7272D004EADBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CED7EDC26A72728004EADBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CED7EE326A72728004EADBC;
+			remoteInfo = HearthKeyboard;
+		};
+		7CED7F0626A7272D004EADBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CED7EDC26A72728004EADBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CED7EE326A72728004EADBC;
+			remoteInfo = HearthKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CED7EE426A72728004EADBC /* HearthKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearthKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED7EE726A72728004EADBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CED7EE926A72728004EADBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CED7EEB26A72728004EADBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CED7EEE26A72728004EADBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CED7EF026A7272C004EADBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CED7EF326A7272C004EADBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CED7EF526A7272C004EADBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CED7EFA26A7272D004EADBC /* HearthKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED7EFE26A7272D004EADBC /* HearthKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthKeyboardTests.swift; sourceTree = "<group>"; };
+		7CED7F0026A7272D004EADBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CED7F0526A7272D004EADBC /* HearthKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED7F0926A7272D004EADBC /* HearthKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthKeyboardUITests.swift; sourceTree = "<group>"; };
+		7CED7F0B26A7272D004EADBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CED7EE126A72728004EADBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED7EF726A7272D004EADBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED7F0226A7272D004EADBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CED7EDB26A72728004EADBC = {
+			isa = PBXGroup;
+			children = (
+				7CED7EE626A72728004EADBC /* HearthKeyboard */,
+				7CED7EFD26A7272D004EADBC /* HearthKeyboardTests */,
+				7CED7F0826A7272D004EADBC /* HearthKeyboardUITests */,
+				7CED7EE526A72728004EADBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CED7EE526A72728004EADBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CED7EE426A72728004EADBC /* HearthKeyboard.app */,
+				7CED7EFA26A7272D004EADBC /* HearthKeyboardTests.xctest */,
+				7CED7F0526A7272D004EADBC /* HearthKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CED7EE626A72728004EADBC /* HearthKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7CED7EE726A72728004EADBC /* AppDelegate.swift */,
+				7CED7EE926A72728004EADBC /* SceneDelegate.swift */,
+				7CED7EEB26A72728004EADBC /* ViewController.swift */,
+				7CED7EED26A72728004EADBC /* Main.storyboard */,
+				7CED7EF026A7272C004EADBC /* Assets.xcassets */,
+				7CED7EF226A7272C004EADBC /* LaunchScreen.storyboard */,
+				7CED7EF526A7272C004EADBC /* Info.plist */,
+			);
+			path = HearthKeyboard;
+			sourceTree = "<group>";
+		};
+		7CED7EFD26A7272D004EADBC /* HearthKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CED7EFE26A7272D004EADBC /* HearthKeyboardTests.swift */,
+				7CED7F0026A7272D004EADBC /* Info.plist */,
+			);
+			path = HearthKeyboardTests;
+			sourceTree = "<group>";
+		};
+		7CED7F0826A7272D004EADBC /* HearthKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CED7F0926A7272D004EADBC /* HearthKeyboardUITests.swift */,
+				7CED7F0B26A7272D004EADBC /* Info.plist */,
+			);
+			path = HearthKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CED7EE326A72728004EADBC /* HearthKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED7F0E26A7272D004EADBC /* Build configuration list for PBXNativeTarget "HearthKeyboard" */;
+			buildPhases = (
+				7CED7EE026A72728004EADBC /* Sources */,
+				7CED7EE126A72728004EADBC /* Frameworks */,
+				7CED7EE226A72728004EADBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearthKeyboard;
+			productName = HearthKeyboard;
+			productReference = 7CED7EE426A72728004EADBC /* HearthKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CED7EF926A7272D004EADBC /* HearthKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED7F1126A7272D004EADBC /* Build configuration list for PBXNativeTarget "HearthKeyboardTests" */;
+			buildPhases = (
+				7CED7EF626A7272D004EADBC /* Sources */,
+				7CED7EF726A7272D004EADBC /* Frameworks */,
+				7CED7EF826A7272D004EADBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CED7EFC26A7272D004EADBC /* PBXTargetDependency */,
+			);
+			name = HearthKeyboardTests;
+			productName = HearthKeyboardTests;
+			productReference = 7CED7EFA26A7272D004EADBC /* HearthKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CED7F0426A7272D004EADBC /* HearthKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED7F1426A7272D004EADBC /* Build configuration list for PBXNativeTarget "HearthKeyboardUITests" */;
+			buildPhases = (
+				7CED7F0126A7272D004EADBC /* Sources */,
+				7CED7F0226A7272D004EADBC /* Frameworks */,
+				7CED7F0326A7272D004EADBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CED7F0726A7272D004EADBC /* PBXTargetDependency */,
+			);
+			name = HearthKeyboardUITests;
+			productName = HearthKeyboardUITests;
+			productReference = 7CED7F0526A7272D004EADBC /* HearthKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CED7EDC26A72728004EADBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7CED7EE326A72728004EADBC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7CED7EF926A7272D004EADBC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7CED7EE326A72728004EADBC;
+					};
+					7CED7F0426A7272D004EADBC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7CED7EE326A72728004EADBC;
+					};
+				};
+			};
+			buildConfigurationList = 7CED7EDF26A72728004EADBC /* Build configuration list for PBXProject "HearthKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CED7EDB26A72728004EADBC;
+			productRefGroup = 7CED7EE526A72728004EADBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CED7EE326A72728004EADBC /* HearthKeyboard */,
+				7CED7EF926A7272D004EADBC /* HearthKeyboardTests */,
+				7CED7F0426A7272D004EADBC /* HearthKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CED7EE226A72728004EADBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED7EF426A7272C004EADBC /* LaunchScreen.storyboard in Resources */,
+				7CED7EF126A7272C004EADBC /* Assets.xcassets in Resources */,
+				7CED7EEF26A72728004EADBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED7EF826A7272D004EADBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED7F0326A7272D004EADBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CED7EE026A72728004EADBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED7EEC26A72728004EADBC /* ViewController.swift in Sources */,
+				7CED7EE826A72728004EADBC /* AppDelegate.swift in Sources */,
+				7CED7EEA26A72728004EADBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED7EF626A7272D004EADBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED7EFF26A7272D004EADBC /* HearthKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED7F0126A7272D004EADBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED7F0A26A7272D004EADBC /* HearthKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CED7EFC26A7272D004EADBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CED7EE326A72728004EADBC /* HearthKeyboard */;
+			targetProxy = 7CED7EFB26A7272D004EADBC /* PBXContainerItemProxy */;
+		};
+		7CED7F0726A7272D004EADBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CED7EE326A72728004EADBC /* HearthKeyboard */;
+			targetProxy = 7CED7F0626A7272D004EADBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CED7EED26A72728004EADBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CED7EEE26A72728004EADBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CED7EF226A7272C004EADBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CED7EF326A7272C004EADBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CED7F0C26A7272D004EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CED7F0D26A7272D004EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CED7F0F26A7272D004EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = desktop.HearthKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CED7F1026A7272D004EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = desktop.HearthKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CED7F1226A7272D004EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = desktop.HearthKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearthKeyboard.app/HearthKeyboard";
+			};
+			name = Debug;
+		};
+		7CED7F1326A7272D004EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = desktop.HearthKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearthKeyboard.app/HearthKeyboard";
+			};
+			name = Release;
+		};
+		7CED7F1526A7272D004EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = desktop.HearthKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HearthKeyboard;
+			};
+			name = Debug;
+		};
+		7CED7F1626A7272D004EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearthKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = desktop.HearthKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HearthKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CED7EDF26A72728004EADBC /* Build configuration list for PBXProject "HearthKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED7F0C26A7272D004EADBC /* Debug */,
+				7CED7F0D26A7272D004EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED7F0E26A7272D004EADBC /* Build configuration list for PBXNativeTarget "HearthKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED7F0F26A7272D004EADBC /* Debug */,
+				7CED7F1026A7272D004EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED7F1126A7272D004EADBC /* Build configuration list for PBXNativeTarget "HearthKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED7F1226A7272D004EADBC /* Debug */,
+				7CED7F1326A7272D004EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED7F1426A7272D004EADBC /* Build configuration list for PBXNativeTarget "HearthKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED7F1526A7272D004EADBC /* Debug */,
+				7CED7F1626A7272D004EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CED7EDC26A72728004EADBC /* Project object */;
+}
