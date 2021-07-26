@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C32388A26A897D300641BCE /* Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32388926A897D300641BCE /* Checker.swift */; };
+		7C59880A26A7F6AC002BF296 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C59880926A7F6AC002BF296 /* KeyboardView.xib */; };
+		7CA7658F26ADDCC600223763 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7658E26ADDCC600223763 /* LoginController.swift */; };
+		7CA7659726AE2FE300223763 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7659626AE2FE300223763 /* SignupController.swift */; };
+		7CDBE64326AA5FAD00CC6F08 /* PopupWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBE64226AA5FAD00CC6F08 /* PopupWindow.swift */; };
+		7CDBE64526AA671F00CC6F08 /* NumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBE64426AA671F00CC6F08 /* NumView.xib */; };
+		7CDBE64726AA677500CC6F08 /* CharView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBE64626AA677500CC6F08 /* CharView.xib */; };
+		7CDBE64926AB131900CC6F08 /* Caps1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBE64826AB131900CC6F08 /* Caps1View.xib */; };
+		7CDBE64B26AB2BE900CC6F08 /* Caps2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBE64A26AB2BE900CC6F08 /* Caps2View.xib */; };
+		7CDBE64F26AB8AC500CC6F08 /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBE64E26AB8AC500CC6F08 /* error.wav */; };
+		7CDBE65126AB8D4500CC6F08 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBE65026AB8D4500CC6F08 /* click.wav */; };
+		7CDBE65326AC9DF600CC6F08 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBE65226AC9DF600CC6F08 /* LoginView.xib */; };
+		7CDBE65526ACA00C00CC6F08 /* new_hearth_logo_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBE65426ACA00C00CC6F08 /* new_hearth_logo_transparent.png */; };
 		7CED7EE826A72728004EADBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7EE726A72728004EADBC /* AppDelegate.swift */; };
 		7CED7EEA26A72728004EADBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7EE926A72728004EADBC /* SceneDelegate.swift */; };
 		7CED7EEC26A72728004EADBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7EEB26A72728004EADBC /* ViewController.swift */; };
@@ -15,6 +28,8 @@
 		7CED7EF426A7272C004EADBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CED7EF226A7272C004EADBC /* LaunchScreen.storyboard */; };
 		7CED7EFF26A7272D004EADBC /* HearthKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7EFE26A7272D004EADBC /* HearthKeyboardTests.swift */; };
 		7CED7F0A26A7272D004EADBC /* HearthKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7F0926A7272D004EADBC /* HearthKeyboardUITests.swift */; };
+		7CED7F1E26A72823004EADBC /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED7F1D26A72823004EADBC /* KeyboardViewController.swift */; };
+		7CED7F2226A72823004EADBC /* SafeKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7CED7F1B26A72823004EADBC /* SafeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +47,43 @@
 			remoteGlobalIDString = 7CED7EE326A72728004EADBC;
 			remoteInfo = HearthKeyboard;
 		};
+		7CED7F2026A72823004EADBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CED7EDC26A72728004EADBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CED7F1A26A72823004EADBC;
+			remoteInfo = SafeKeyboard;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7CED7F2626A72823004EADBC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7CED7F2226A72823004EADBC /* SafeKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7C32388926A897D300641BCE /* Checker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checker.swift; sourceTree = "<group>"; };
+		7C59880926A7F6AC002BF296 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+		7CA7658E26ADDCC600223763 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7CA7659626AE2FE300223763 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		7CDBE64226AA5FAD00CC6F08 /* PopupWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupWindow.swift; sourceTree = "<group>"; };
+		7CDBE64426AA671F00CC6F08 /* NumView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumView.xib; sourceTree = "<group>"; };
+		7CDBE64626AA677500CC6F08 /* CharView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharView.xib; sourceTree = "<group>"; };
+		7CDBE64826AB131900CC6F08 /* Caps1View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Caps1View.xib; sourceTree = "<group>"; };
+		7CDBE64A26AB2BE900CC6F08 /* Caps2View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Caps2View.xib; sourceTree = "<group>"; };
+		7CDBE64E26AB8AC500CC6F08 /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = error.wav; path = ../../../Downloads/error.wav; sourceTree = "<group>"; };
+		7CDBE65026AB8D4500CC6F08 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = click.wav; path = ../../../Downloads/click.wav; sourceTree = "<group>"; };
+		7CDBE65226AC9DF600CC6F08 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		7CDBE65426ACA00C00CC6F08 /* new_hearth_logo_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_hearth_logo_transparent.png; path = ../../../Downloads/new_hearth_logo_transparent.png; sourceTree = "<group>"; };
 		7CED7EE426A72728004EADBC /* HearthKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearthKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CED7EE726A72728004EADBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CED7EE926A72728004EADBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +98,9 @@
 		7CED7F0526A7272D004EADBC /* HearthKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CED7F0926A7272D004EADBC /* HearthKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthKeyboardUITests.swift; sourceTree = "<group>"; };
 		7CED7F0B26A7272D004EADBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CED7F1B26A72823004EADBC /* SafeKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SafeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED7F1D26A72823004EADBC /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		7CED7F1F26A72823004EADBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +125,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7CED7F1826A72823004EADBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +141,7 @@
 				7CED7EE626A72728004EADBC /* HearthKeyboard */,
 				7CED7EFD26A7272D004EADBC /* HearthKeyboardTests */,
 				7CED7F0826A7272D004EADBC /* HearthKeyboardUITests */,
+				7CED7F1C26A72823004EADBC /* SafeKeyboard */,
 				7CED7EE526A72728004EADBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +152,7 @@
 				7CED7EE426A72728004EADBC /* HearthKeyboard.app */,
 				7CED7EFA26A7272D004EADBC /* HearthKeyboardTests.xctest */,
 				7CED7F0526A7272D004EADBC /* HearthKeyboardUITests.xctest */,
+				7CED7F1B26A72823004EADBC /* SafeKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +163,8 @@
 				7CED7EE726A72728004EADBC /* AppDelegate.swift */,
 				7CED7EE926A72728004EADBC /* SceneDelegate.swift */,
 				7CED7EEB26A72728004EADBC /* ViewController.swift */,
+				7CA7658E26ADDCC600223763 /* LoginController.swift */,
+				7CA7659626AE2FE300223763 /* SignupController.swift */,
 				7CED7EED26A72728004EADBC /* Main.storyboard */,
 				7CED7EF026A7272C004EADBC /* Assets.xcassets */,
 				7CED7EF226A7272C004EADBC /* LaunchScreen.storyboard */,
@@ -128,6 +191,26 @@
 			path = HearthKeyboardUITests;
 			sourceTree = "<group>";
 		};
+		7CED7F1C26A72823004EADBC /* SafeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7CED7F1D26A72823004EADBC /* KeyboardViewController.swift */,
+				7CDBE64226AA5FAD00CC6F08 /* PopupWindow.swift */,
+				7C32388926A897D300641BCE /* Checker.swift */,
+				7CDBE65226AC9DF600CC6F08 /* LoginView.xib */,
+				7C59880926A7F6AC002BF296 /* KeyboardView.xib */,
+				7CDBE64826AB131900CC6F08 /* Caps1View.xib */,
+				7CDBE64A26AB2BE900CC6F08 /* Caps2View.xib */,
+				7CDBE64426AA671F00CC6F08 /* NumView.xib */,
+				7CDBE64626AA677500CC6F08 /* CharView.xib */,
+				7CED7F1F26A72823004EADBC /* Info.plist */,
+				7CDBE65026AB8D4500CC6F08 /* click.wav */,
+				7CDBE64E26AB8AC500CC6F08 /* error.wav */,
+				7CDBE65426ACA00C00CC6F08 /* new_hearth_logo_transparent.png */,
+			);
+			path = SafeKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +221,12 @@
 				7CED7EE026A72728004EADBC /* Sources */,
 				7CED7EE126A72728004EADBC /* Frameworks */,
 				7CED7EE226A72728004EADBC /* Resources */,
+				7CED7F2626A72823004EADBC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7CED7F2126A72823004EADBC /* PBXTargetDependency */,
 			);
 			name = HearthKeyboard;
 			productName = HearthKeyboard;
@@ -184,6 +269,23 @@
 			productReference = 7CED7F0526A7272D004EADBC /* HearthKeyboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		7CED7F1A26A72823004EADBC /* SafeKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED7F2326A72823004EADBC /* Build configuration list for PBXNativeTarget "SafeKeyboard" */;
+			buildPhases = (
+				7CED7F1726A72823004EADBC /* Sources */,
+				7CED7F1826A72823004EADBC /* Frameworks */,
+				7CED7F1926A72823004EADBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeKeyboard;
+			productName = SafeKeyboard;
+			productReference = 7CED7F1B26A72823004EADBC /* SafeKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +306,9 @@
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 7CED7EE326A72728004EADBC;
 					};
+					7CED7F1A26A72823004EADBC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 				};
 			};
 			buildConfigurationList = 7CED7EDF26A72728004EADBC /* Build configuration list for PBXProject "HearthKeyboard" */;
@@ -222,6 +327,7 @@
 				7CED7EE326A72728004EADBC /* HearthKeyboard */,
 				7CED7EF926A7272D004EADBC /* HearthKeyboardTests */,
 				7CED7F0426A7272D004EADBC /* HearthKeyboardUITests */,
+				7CED7F1A26A72823004EADBC /* SafeKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +357,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7CED7F1926A72823004EADBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C59880A26A7F6AC002BF296 /* KeyboardView.xib in Resources */,
+				7CDBE64726AA677500CC6F08 /* CharView.xib in Resources */,
+				7CDBE65326AC9DF600CC6F08 /* LoginView.xib in Resources */,
+				7CDBE64526AA671F00CC6F08 /* NumView.xib in Resources */,
+				7CDBE65126AB8D4500CC6F08 /* click.wav in Resources */,
+				7CDBE64F26AB8AC500CC6F08 /* error.wav in Resources */,
+				7CDBE64926AB131900CC6F08 /* Caps1View.xib in Resources */,
+				7CDBE64B26AB2BE900CC6F08 /* Caps2View.xib in Resources */,
+				7CDBE65526ACA00C00CC6F08 /* new_hearth_logo_transparent.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,7 +381,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CED7EEC26A72728004EADBC /* ViewController.swift in Sources */,
+				7CA7658F26ADDCC600223763 /* LoginController.swift in Sources */,
 				7CED7EE826A72728004EADBC /* AppDelegate.swift in Sources */,
+				7CA7659726AE2FE300223763 /* SignupController.swift in Sources */,
 				7CED7EEA26A72728004EADBC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +404,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7CED7F1726A72823004EADBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED7F1E26A72823004EADBC /* KeyboardViewController.swift in Sources */,
+				7CDBE64326AA5FAD00CC6F08 /* PopupWindow.swift in Sources */,
+				7C32388A26A897D300641BCE /* Checker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +426,11 @@
 			isa = PBXTargetDependency;
 			target = 7CED7EE326A72728004EADBC /* HearthKeyboard */;
 			targetProxy = 7CED7F0626A7272D004EADBC /* PBXContainerItemProxy */;
+		};
+		7CED7F2126A72823004EADBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CED7F1A26A72823004EADBC /* SafeKeyboard */;
+			targetProxy = 7CED7F2026A72823004EADBC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,6 +573,7 @@
 		7CED7F0F26A7272D004EADBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +592,7 @@
 		7CED7F1026A7272D004EADBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +688,42 @@
 			};
 			name = Release;
 		};
+		7CED7F2426A72823004EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafeKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = desktop.HearthKeyboard.SafeKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CED7F2526A72823004EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SafeKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = desktop.HearthKeyboard.SafeKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,6 +759,15 @@
 			buildConfigurations = (
 				7CED7F1526A7272D004EADBC /* Debug */,
 				7CED7F1626A7272D004EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED7F2326A72823004EADBC /* Build configuration list for PBXNativeTarget "SafeKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED7F2426A72823004EADBC /* Debug */,
+				7CED7F2526A72823004EADBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

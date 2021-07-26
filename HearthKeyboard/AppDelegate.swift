@@ -10,8 +10,6 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
@@ -32,5 +30,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension String
+{
+
+    var length: Int {
+        return count
+    }
+
+    subscript (i: Int) -> String {
+        return self[i ..< i + 1]
+    }
+
+    func substring(fromIndex: Int) -> String {
+        return self[min(fromIndex, length) ..< length]
+    }
+
+    func substring(toIndex: Int) -> String {
+        return self[0 ..< max(0, toIndex)]
+    }
+
+    subscript (r: Range<Int>) -> String {
+        let range = Range(uncheckedBounds: (lower: max(0, min(length, r.lowerBound)),
+                                            upper: min(length, max(0, r.upperBound))))
+        let start = index(startIndex, offsetBy: range.lowerBound)
+        let end = index(start, offsetBy: range.upperBound - range.lowerBound)
+        return String(self[start ..< end])
+    }
+}
+
+extension UIView{
+   // For insert layer in Foreground
+   func addBlackGradientLayerInForeground(frame: CGRect, colors:[UIColor]){
+    let gradient = CAGradientLayer()
+    gradient.frame = frame
+    gradient.colors = colors.map{$0.cgColor}
+    self.layer.addSublayer(gradient)
+   }
+   // For insert layer in background
+   func addBlackGradientLayerInBackground(frame: CGRect, colors:[UIColor]){
+    let gradient = CAGradientLayer()
+    gradient.frame = frame
+    gradient.colors = colors.map{$0.cgColor}
+    self.layer.insertSublayer(gradient, at: 0)
+   }
 }
 
